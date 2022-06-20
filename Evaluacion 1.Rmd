@@ -1,5 +1,5 @@
 ---
-title: "Evaluación 1"
+title: "Evaluación 1 - Programación en R"
 output: html_document
 ---
 
@@ -7,10 +7,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Preguntas
+## Preguntas iniciales
 
 
-Explique en sus palabras qué es un vector: double, logic, character e integer ¿Para qué los utilizaría? De ejemplos
+- Explique en sus palabras qué es un vector: double, logic, character e integer ¿Para qué los utilizaría? De ejemplos
 
 - ¿Qué función de R utilizaría para detectar el tipo de vector?
 
@@ -26,11 +26,13 @@ Explique en sus palabras qué es un vector: double, logic, character e integer �
 
 - Si quiere verificar que una estructura es un data.frame ¿Cómo lo haría?
 
-- Si tiene otro tipo de estructura ¿Cómo lo convertiría a Data.frame? Escriba el comando
+- Si tiene otro tipo de estructura ¿Cómo lo convertiría a data.frame? Escriba el comando
 
-## Ejercicio
+## Ejercicio 1
 
-Describa la imagen. Ej: ¿Qué errores hay? ¿Cómo los arreglaría? ¿Qué me recomendaría para mejorar mi escritura en R? 
+Sobre cada línea del siguiente código, por favor describa la imagen. 
+
+Ej: ¿Qué errores hay? ¿Cómo los arreglaría? ¿Qué me recomendaría para mejorar mi escritura en R? 
 
 
 ```{r, error=TRUE, eval = FALSE}
@@ -47,8 +49,9 @@ xx<-data.frame(z,d,g,l,T)
 ```
 
 
+## Ejercicio 2
 
-Ante este comando ¿Qué resultado espera? Por favor grafíquelo: 
+Sobre el siguiente código ¿Qué resultado espera? Por favor grafíquelo: 
 
 ```{r, error=TRUE, eval = FALSE}
 matrix_of_log <-  matrix(data = l, nrow = 4, ncol = 2)
@@ -58,7 +61,7 @@ matrix_of_log
 
 
 
-## Ejercicios 
+## Ejercicio 3
 
 - Grafique un ejemplo de datos en wide con al menos 4 variables. ¿Cómo sería esa tabla en formato long?
 
