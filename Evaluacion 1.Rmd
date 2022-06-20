@@ -1,0 +1,72 @@
+---
+title: "Evaluación 1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Preguntas
+
+
+Explique en sus palabras qué es un vector: double, logic, character e integer ¿Para qué los utilizaría? De ejemplos
+
+- ¿Qué función de R utilizaría para detectar el tipo de vector?
+
+- La orientación de un vector es horizontal F/V
+
+- ¿Cuándo una estructura es considerada una matrix?
+
+- ¿Cuál es la diferencia entre una matrix y un array?
+
+- ¿Por qué usaría un data.frame en lugar de una matriz o un array?
+
+- ¿Qué sucede si el vector tiene un número de filas diferentes a las del data.frame?
+
+- Si quiere verificar que una estructura es un data.frame ¿Cómo lo haría?
+
+- Si tiene otro tipo de estructura ¿Cómo lo convertiría a Data.frame? Escriba el comando
+
+## Ejercicio
+
+Describa la imagen. Ej: ¿Qué errores hay? ¿Cómo los arreglaría? ¿Qué me recomendaría para mejorar mi escritura en R? 
+
+
+```{r, error=TRUE, eval = FALSE}
+z<-(1:8)
+r<-(1:8,9.3)
+d<-(a,s,d,s)
+g<-(1l, 2l, 3l)
+o<-array(g,d,z)
+T=matrix(1,d,g,z)
+l<-(TRUE, FALSE, T, F, “T”)
+ss<-c(z,d,g,T)
+xx<-data.frame(z,d,g,l,T)
+
+```
+
+
+
+Ante este comando ¿Qué resultado espera? Por favor grafíquelo: 
+
+```{r, error=TRUE, eval = FALSE}
+matrix_of_log <-  matrix(data = l, nrow = 4, ncol = 2)
+matrix_of_log
+
+```
+
+
+
+## Ejercicios 
+
+- Grafique un ejemplo de datos en wide con al menos 4 variables. ¿Cómo sería esa tabla en formato long?
+
+- ¿Cuál es la diferencia entre NaN, Inf y NA? ¿En qué circunstancias los ha visto?
+
+- ¿Qué es una lista y para qué la usaría?
+
+- ¿Para qué sirve el comando browseVignettes()? ¿Para qué sirve poner el simbolo "r" delante del nombre de un paquete?
+
+- Escriba como instalaría y cargaría una librería (también llamado paquete) de forma que sea reproducible por cualquiera que ejecute el código.
+
