@@ -10,9 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Preguntas iniciales
 
 
-- Explique en sus palabras qué es un vector: double, logic, character e integer ¿Para qué los utilizaría? De ejemplos
+- Explique en sus palabras qué es un vector: double, logic, character e integer ¿Para qué los utilizaría? De ejemplos.
 
-- ¿Qué función de R utilizaría para detectar el tipo de vector?
+- ¿Qué función de _R_ utilizaría para detectar el tipo de vector?
 
 - La orientación de un vector es horizontal F/V
 
@@ -22,17 +22,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - ¿Por qué usaría un data.frame en lugar de una matriz o un array?
 
-- ¿Qué sucede si el vector tiene un número de filas diferentes a las del data.frame?
+- ¿Qué sucede si el vector tiene un número de filas diferentes a las del `data.frame`?
 
-- Si quiere verificar que una estructura es un data.frame ¿Cómo lo haría?
+- Si quiere verificar que una estructura es un `data.frame` ¿Cómo lo haría?
 
-- Si tiene otro tipo de estructura ¿Cómo lo convertiría a data.frame? Escriba el comando
+- Si tiene otro tipo de estructura ¿Cómo lo convertiría a `data.frame`? Escriba el comando
 
 ## Ejercicio 1
 
 Sobre cada línea del siguiente código, por favor describa la imagen. 
 
-Ej: ¿Qué errores hay? ¿Cómo los arreglaría? ¿Qué me recomendaría para mejorar mi escritura en R? 
+Ej: ¿Qué errores hay? ¿Cómo los arreglaría? ¿Qué me recomendaría para mejorar la escritura en _R_ en estas líneas de cógigo? 
 
 
 ```{r, error=TRUE, eval = FALSE}
@@ -63,13 +63,24 @@ matrix_of_log
 
 ## Ejercicio 3
 
-- Grafique un ejemplo de datos en wide con al menos 4 variables. ¿Cómo sería esa tabla en formato long?
+- Grafique un ejemplo de datos en _wide_ con al menos 4 variables
 
-- ¿Cuál es la diferencia entre NaN, Inf y NA? ¿En qué circunstancias los ha visto?
+- ¿Cómo sería esa tabla en formato _long_?
+
+- ¿Cuál es la diferencia entre `NaN`, `Inf` y `NA`? ¿En qué circunstancias los ha visto?
 
 - ¿Qué es una lista y para qué la usaría?
 
-- ¿Para qué sirve el comando browseVignettes()? ¿Para qué sirve poner el simbolo "r" delante del nombre de un paquete?
+- ¿Qué es una librería de _R_? (También llamado paquete)
 
-- Escriba como instalaría y cargaría una librería (también llamado paquete) de forma que sea reproducible por cualquiera que ejecute el código.
+- ¿Para qué sirve el comando `browseVignettes()`? ¿Para qué sirve poner el simbolo `?` delante del nombre de una librería?
+
+- Escriba cómo instalaría y cargaría una librería de forma que sea reproducible por cualquiera que ejecute el código.
+
+
+### Autoría
+
+_Primer Borrador_: Jose M Velasco
+
+_Ajustes y correcciones_: Zulma M Cucunubá
 
