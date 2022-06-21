@@ -10,40 +10,47 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Preguntas iniciales
 
 
-- Explique en sus palabras qué es un vector: double, logic, character e integer ¿Para qué los utilizaría? De ejemplos.
+- Explique en sus palabras ¿Qué es un vector: double, logic, character e integer? ¿Para qué los utilizaría? De ejemplos
 
 - ¿Qué función de _R_ utilizaría para detectar el tipo de vector?
 
-- La orientación de un vector es horizontal F/V
+- La orientación de un vector es horizontal ¿Falso o Verdadero?
 
-- ¿Cuándo una estructura es considerada una matrix?
+- ¿Cuándo una estructura de R es considerada un`matrix`?
 
-- ¿Cuál es la diferencia entre una matrix y un array?
+- ¿Cuál es la diferencia entre una `matrix` y un `array`?
 
-- ¿Por qué usaría un data.frame en lugar de una matriz o un array?
+- ¿Por qué usaría un `data.frame` en lugar de `matrix` o un `array`?
 
-- ¿Qué sucede si el vector tiene un número de filas diferentes a las del `data.frame`?
+- ¿Qué sucede si al querer incorporar un vector a una tabla de datos el vector tiene un número de elementos diferentes a las filas del `data.frame`?
 
 - Si quiere verificar que una estructura es un `data.frame` ¿Cómo lo haría?
 
-- Si tiene otro tipo de estructura ¿Cómo lo convertiría a `data.frame`? Escriba el comando
+- Si tiene otro tipo de estructura ¿Cómo lo convertiría a `data.frame`? Escriba el código para ello
+
 
 ## Ejercicio 1
 
-Sobre cada línea del siguiente código, por favor describa la imagen. 
-
-Ej: ¿Qué errores hay? ¿Cómo los arreglaría? ¿Qué me recomendaría para mejorar la escritura en _R_ en estas líneas de cógigo? 
+Sobre cada línea del siguiente código, por favor describa ¿Qué errores hay? ¿Cómo los arreglaría? ¿Qué  recomendaría para mejorar la escritura de estas líneas de cógigo en _R_? 
 
 
 ```{r, error=TRUE, eval = FALSE}
 z<-(1:8)
+
 r<-(1:8,9.3)
+
 d<-(a,s,d,s)
+
 g<-(1l, 2l, 3l)
+
 o<-array(g,d,z)
+
 T=matrix(1,d,g,z)
+
 l<-(TRUE, FALSE, T, F, “T”)
+
 ss<-c(z,d,g,T)
+
 xx<-data.frame(z,d,g,l,T)
 
 ```
