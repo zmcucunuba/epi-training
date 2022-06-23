@@ -1,0 +1,12 @@
+En computador
+Descargue la base de datos de casos positivos desde https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr/data 
+**No olvide crear un proyecto.
+**Se requiere que en la base de datos no aparezca casa sino hogar. Por favor, escriba un código que resuelva este problema desde cualquier computador que se ejecute, la base de datos se va a actualizar y las posiciones de los datos pueden cambiar, asegúrese que sin importar la fecha el código funcione.
+*Pista: La vAriable podRía Estar esCritA de DIFERENTES formas.
+**Por favor mencione la cantidad de fallecidos según grupo etario para cada mes
+*Pista para la división de grupos etarios podría usar "Primera infancia" (0 a 5),"Infancia" (6 a 11),"Adolescencia" (12 a 18),"Juventud" (19 a 26),"Adultez" (27 a 59),"Adulto mayor" (60 a 71),"Viejo Viejo" (72 en adelante)
+**Por favor grafique las personas por grupo etario y sexo con condición leve de la enfermedad.
+**Por un problema en la plataforma hubo un error y los datos de las personas entre 50 y 60 años registrados el día 2 de marzo de 2021, debían ser registrados el día 1 de marzo de 2021. Sin embargo, estos problemas parecen ser repetitivos, por favor cree una función para corregir este tipo de errores.
+**Por favor escoja 3 departamentos y grafique un comparativo de la incidencia semanal durante 2021.
+**Por favor cree una función que solicite los siguientes argumentos: base de datos y ciudad. Incluya dentro de la función un elemento tipo ggplot que incluya el color rojo para fallecidos y verde para vivos. 
+**Finalmente, realice una función que cree un gráfico con la función facet_grid de ggplot2 para las principales ciudades de Colombia.
