@@ -1,0 +1,42 @@
+---
+title: "Taller 3 R - Git y trabajo colaborativo"
+output: html_document
+date: '2022-07-15'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+- Antes de iniciar, tenga en cuenta que este es un nuevo proyecto. No olvide crear un nuevo proyecto de R.
+
+## 
+
+- git branch
+- git checkout
+- git status
+- git fetch
+- git pull
+- git add .
+- git add ""
+- git push
+- git comment -m "mesnaje que quiero enviar"
+- git merge
+- git stash
+
+
+
+Usted es el responsable de la base de datos de casos positivos de COVID 19 en Colombia. Por tanto, es responsable por las solicitudes de información. 
+
+La página donde usted ofrecer los datos de los casos positivos es: <https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr/data>
+
+
+
+
+
+### Autoría
+
+_Primer Borrador_: Jose M Velasco
+
+_Ajustes y correcciones_: Zulma M Cucunubá
